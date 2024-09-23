@@ -184,12 +184,18 @@ const itsAtie = Object
 
  
     return (
+
+        
         <div className="Game">
+
+            <div className="title">
+            <h1>JOGO DA VELHA</h1>
+            </div>
 
          <div className="Scoreboard">
           <input className="playerName"  value="O" disabled />
-          <textarea className="playerScore" value={scoreO} readOnly />
-          <textarea className="playerScore" value={scoreX} readOnly />
+          <input className="playerScore" value={scoreO} disabled />
+          <input className="playerScore" value={scoreX} disabled />
           <input className="playerName" value="X" disabled />
          </div> 
 
